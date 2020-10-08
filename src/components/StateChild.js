@@ -15,7 +15,7 @@ function handleClick_1_restart(){
 function handleClick_2(){
     this.setState(prevState => {
         let variable_segunda
-        if (prevState.segunda == true){
+        if (prevState.segunda === true){
             variable_segunda=false
         }else{
             variable_segunda=true

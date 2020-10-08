@@ -3,6 +3,7 @@ import FirstChild from "./components/FirstChild"
 import StylingChild from "./components/StylingChild"
 import PropsChild from "./components/PropsChild"
 import StateChild from "./components/StateChild"
+import LifeCycleChild from "./components/LifeCycleChild"
 
 function App () {
     return (
@@ -22,6 +23,8 @@ function App () {
           />
           <h1>----STATE--------------</h1>
           <StateChild />
+          <h1>----Life Cycle Methods / Feel free to open the Console and check out how they work--------------</h1>
+          <LifeCycleChild />
         </div>
     )
 }
