@@ -2,7 +2,10 @@ body {
     background-color: slategray;
  }
 
+ h1 {
+    background-color: green;
+ }
+
  .for-the-StylingChild {
     background-color: salmon;
-    text-align: center;
 }
