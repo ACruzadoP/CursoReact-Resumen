@@ -5,6 +5,7 @@ import PropsChild from "./components/PropsChild"
 import StateChild from "./components/StateChild"
 import LifeCycleChild from "./components/LifeCycleChild"
 import ConditRenderChild from "./components/ConditRenderChild"
+import FormsChild from "./components/FormsChild"
 
 function App () {
     return (
@@ -28,6 +29,8 @@ function App () {
           <LifeCycleChild />
           <h1>----Conditional Render--------------</h1>
           <ConditRenderChild />
+          <h1>----FORMS--------------</h1>
+          <FormsChild />
         </div>
     )
 }
