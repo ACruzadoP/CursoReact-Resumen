@@ -2,6 +2,7 @@ import React from "react"
 import FirstChild from "./components/FirstChild"
 import StylingChild from "./components/StylingChild"
 import PropsChild from "./components/PropsChild"
+import StateChild from "./components/StateChild"
 
 function App () {
     return (
@@ -19,6 +20,8 @@ function App () {
               firstProp={"Primer prop de la segunda llamada"}
               secondProp={"Segundo prop de la segunda llamada"}
           />
+          <h1>----STATE--------------</h1>
+          <StateChild />
         </div>
     )
 }
